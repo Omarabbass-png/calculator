@@ -2,10 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #6a0dad;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #calculator{
     background-color: rgba(48, 15, 79, 0.959);
     border-radius: 20px;
     width: 500px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+     background: linear-gradient(125deg, #6a0dad, #ff69b4);
+    
     
 }
 #keys{
@@ -18,7 +30,7 @@
 button{
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 20px;
     cursor: pointer;
     border: none;
     background-color: rgb(80, 43, 116);

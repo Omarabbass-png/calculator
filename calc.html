@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="calcstyle.css">
 </head>
 <body>
+    <div class="container">
     <div id="calculator">
-        <input id="display">
+        <input id="display" readonly>
         <div id="keys">
             <button onclick="toDisplay('+')">+</button>
             <button onclick="toDisplay('7')">7</button>
@@ -29,6 +30,7 @@
             <button onclick="clearDisplay('C')">C</button>
         </div>
 
+    </div>
     </div>
 
     <script src="calculator.js"></script>
